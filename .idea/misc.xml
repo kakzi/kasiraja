@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/MEDIA/Project Kasir Brian/lazday-aplikasi-kasir/app/src/main/res/layout/dialog_inventory.xml" value="0.23505434782608695" />
+        <entry key="..\:/Project Kasir Brian/lazday-aplikasi-kasir/app/src/main/res/drawable/bg_btn_history.xml" value="0.26614583333333336" />
+        <entry key="..\:/Project Kasir Brian/lazday-aplikasi-kasir/app/src/main/res/drawable/bg_button.xml" value="0.26614583333333336" />
+        <entry key="..\:/Project Kasir Brian/lazday-aplikasi-kasir/app/src/main/res/drawable/bg_edit.xml" value="0.26614583333333336" />
+        <entry key="..\:/Project Kasir Brian/lazday-aplikasi-kasir/app/src/main/res/drawable/bg_login.xml" value="0.26614583333333336" />
+        <entry key="..\:/Project Kasir Brian/lazday-aplikasi-kasir/app/src/main/res/drawable/bg_menu.xml" value="0.26614583333333336" />
+        <entry key="..\:/Project Kasir Brian/lazday-aplikasi-kasir/app/src/main/res/drawable/bg_name_product.xml" value="0.14322916666666666" />
+        <entry key="..\:/Project Kasir Brian/lazday-aplikasi-kasir/app/src/main/res/layout/activity_add_product.xml" value="0.2" />
+        <entry key="..\:/Project Kasir Brian/lazday-aplikasi-kasir/app/src/main/res/layout/activity_cart.xml" value="0.25" />
+        <entry key="..\:/Project Kasir Brian/lazday-aplikasi-kasir/app/src/main/res/layout/activity_categories.xml" value="0.25" />
+        <entry key="..\:/Project Kasir Brian/lazday-aplikasi-kasir/app/src/main/res/layout/activity_category.xml" value="0.25" />
+        <entry key="..\:/Project Kasir Brian/lazday-aplikasi-kasir/app/src/main/res/layout/activity_edit_product.xml" value="0.25" />
+        <entry key="..\:/Project Kasir Brian/lazday-aplikasi-kasir/app/src/main/res/layout/activity_history.xml" value="0.25" />
+        <entry key="..\:/Project Kasir Brian/lazday-aplikasi-kasir/app/src/main/res/layout/activity_home.xml" value="0.264" />
+        <entry key="..\:/Project Kasir Brian/lazday-aplikasi-kasir/app/src/main/res/layout/activity_login.xml" value="0.25" />
+        <entry key="..\:/Project Kasir Brian/lazday-aplikasi-kasir/app/src/main/res/layout/activity_menu.xml" value="0.136" />
+        <entry key="..\:/Project Kasir Brian/lazday-aplikasi-kasir/app/src/main/res/layout/activity_print.xml" value="0.25" />
+        <entry key="..\:/Project Kasir Brian/lazday-aplikasi-kasir/app/src/main/res/layout/activity_product.xml" value="0.25" />
+        <entry key="..\:/Project Kasir Brian/lazday-aplikasi-kasir/app/src/main/res/layout/activity_report.xml" value="0.25" />
+        <entry key="..\:/Project Kasir Brian/lazday-aplikasi-kasir/app/src/main/res/layout/activity_scan_qr_code.xml" value="0.25" />
+        <entry key="..\:/Project Kasir Brian/lazday-aplikasi-kasir/app/src/main/res/layout/activity_splash.xml" value="0.25" />
+        <entry key="..\:/Project Kasir Brian/lazday-aplikasi-kasir/app/src/main/res/layout/adapter_cart.xml" value="0.25" />
+        <entry key="..\:/Project Kasir Brian/lazday-aplikasi-kasir/app/src/main/res/layout/adapter_category.xml" value="0.25" />
+        <entry key="..\:/Project Kasir Brian/lazday-aplikasi-kasir/app/src/main/res/layout/adapter_product.xml" value="0.152" />
+        <entry key="..\:/Project Kasir Brian/lazday-aplikasi-kasir/app/src/main/res/layout/adapter_transaction.xml" value="0.25" />
+        <entry key="..\:/Project Kasir Brian/lazday-aplikasi-kasir/app/src/main/res/layout/adapter_transaction_detail.xml" value="0.25" />
+        <entry key="..\:/Project Kasir Brian/lazday-aplikasi-kasir/app/src/main/res/layout/content_home.xml" value="0.176" />
+        <entry key="..\:/Project Kasir Brian/lazday-aplikasi-kasir/app/src/main/res/layout/dialog_cart.xml" value="0.25" />
+        <entry key="..\:/Project Kasir Brian/lazday-aplikasi-kasir/app/src/main/res/layout/dialog_inventory.xml" value="0.25" />
+        <entry key="..\:/Project Kasir Brian/lazday-aplikasi-kasir/app/src/main/res/layout/fragment_history_details.xml" value="0.25" />
+        <entry key="..\:/Project Kasir Brian/lazday-aplikasi-kasir/app/src/main/res/layout/fragment_transaction_detail.xml" value="0.25" />
+        <entry key="..\:/Project Kasir Brian/lazday-aplikasi-kasir/app/src/main/res/layout/item_category.xml" value="0.25" />
+        <entry key="..\:/Project Kasir Brian/lazday-aplikasi-kasir/app/src/main/res/layout/item_menu.xml" value="0.24365942028985507" />
+        <entry key="..\:/Project Kasir Brian/lazday-aplikasi-kasir/app/src/main/res/layout/item_print_product.xml" value="0.25" />
+        <entry key="..\:/Project Kasir Brian/lazday-aplikasi-kasir/app/src/main/res/layout/menu_set.xml" value="0.24365942028985507" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

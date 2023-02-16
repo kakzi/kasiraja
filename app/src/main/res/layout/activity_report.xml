@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:id="@+id/container_report"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".page.report.ReportActivity"
+    >
+
+    <RadioGroup
+        android:id="@+id/radio_filter_by"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <RadioButton
+            android:id="@+id/radio_date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:checked="true"
+            android:text="Tanggal" />
+
+<!--        <RadioButton-->
+<!--            android:id="@+id/radio_cashier"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_weight="1"-->
+<!--            android:text="Kasir" />-->
+    </RadioGroup>
+
+    <EditText
+        android:id="@+id/edit_no_transaction"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:drawableEnd="@drawable/ic_search"
+        android:hint="No Transaksi"
+        android:imeOptions="actionSearch"
+        android:inputType="text"
+        android:maxLines="1"
+        android:padding="10dp"
+        app:layout_constraintEnd_toEndOf="@+id/radio_filter_by"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/radio_filter_by" />
+    <EditText
+        android:id="@+id/edit_date_start"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Dari Tanggal"
+        android:focusable="false"
+        app:layout_constraintTop_toBottomOf="@+id/edit_no_transaction"
+        app:layout_constraintStart_toStartOf="parent"
+        android:padding="10dp"
+        />
+
+    <EditText
+        android:id="@+id/edit_date_end"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:focusable="false"
+        android:hint="Sampai Tanggal"
+        android:padding="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/edit_date_start"
+        app:layout_constraintTop_toTopOf="@+id/edit_date_start" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/list_cashier"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edit_date_end"
+        tools:listitem="@layout/adapter_category" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/list_transaction"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/backgroundGray"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/list_cashier"
+        tools:listitem="@layout/adapter_transaction" />
+
+    <ProgressBar
+        android:id="@+id/progress_transaction"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="@+id/list_transaction"
+        app:layout_constraintEnd_toEndOf="@+id/list_transaction"
+        app:layout_constraintStart_toStartOf="@+id/list_transaction"
+        app:layout_constraintTop_toBottomOf="@+id/list_cashier" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,28 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.bmtnuinstitute.pointofsales.page.report.ReportActivity">
+    <item
+        android:id="@+id/action_chart"
+        android:orderInCategory="0"
+        android:title="Chart"
+        android:icon="@drawable/ic_bar_chart"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_export_excel"
+        android:orderInCategory="0"
+        android:title="Export Excel"
+        android:icon="@drawable/ic_bar_chart"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_export_pdf"
+        android:orderInCategory="0"
+        android:title="Export PDF"
+        android:icon="@drawable/ic_bar_chart"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_logout"
+        android:orderInCategory="2"
+        android:title="Logout"
+        app:showAsAction="never" />
+</menu>

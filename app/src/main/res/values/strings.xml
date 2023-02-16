@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Institute Store</string>
+    <string name="action_settings">Settings</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="data_title">
+        <item>Penjualan</item>
+        <item>Pengeluaran</item>
+        <item>Produk</item>
+        <item>Kategori</item>
+    </string-array>
+
+    <integer-array name="data_image">
+        <item>@drawable/penjualan</item>
+        <item>@drawable/pengeluaran</item>
+        <item>@drawable/product</item>
+        <item>@drawable/kategori</item>
+    </integer-array>
+
+
+</resources>
