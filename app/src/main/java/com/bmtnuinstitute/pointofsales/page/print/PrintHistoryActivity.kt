@@ -169,7 +169,7 @@ class PrintHistoryActivity : AppCompatActivity() {
         product.forEach {
             printables.add(
                 TextPrintable.Builder()
-                    .setText("${it.nama_produk} @${it.harga}  x ${it.jumlah} : ${it.total} \n")
+                    .setText("${it.nama_produk} @${Helper.idrFormat(it.harga.toInt())}  x ${it.jumlah} : ${Helper.idrFormat(it.total.toInt())} \n")
                     .build()
             )
         }
@@ -184,7 +184,10 @@ class PrintHistoryActivity : AppCompatActivity() {
 
         printables.add(
             TextPrintable.Builder()
-                .setText("Terima kasih sudah belanja\ndi Toko kami!")
+                .setText("Terima kasih sudah belanja\n" +
+                        "di Toko kami!\n" +
+                        "BMT NU Ngasem Institute\n" +
+                        "Bantu Bisnis Naik Kelas!")
                 .setAlignment(DefaultPrinter.ALIGNMENT_CENTER)
                 .setNewLinesAfter(1)
                 .build()

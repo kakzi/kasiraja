@@ -71,12 +71,13 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="-"
+        android:background="@drawable/bg_cancel"
         android:textStyle="bold"
-        android:textColor="@color/black"
+        android:textColor="@color/white"
         app:layout_constraintTop_toBottomOf="@+id/text_title"
         app:layout_constraintStart_toStartOf="@+id/text_title"
         />
-    <TextView
+    <EditText
         android:id="@+id/text_qty"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -94,7 +95,8 @@
         android:layout_height="wrap_content"
         android:text="+"
         android:textStyle="bold"
-        android:textColor="@color/black"
+        android:textColor="@color/white"
+        android:background="@drawable/bg_print"
         app:layout_constraintTop_toBottomOf="@+id/text_title"
         app:layout_constraintEnd_toEndOf="@+id/text_title"
         />
@@ -103,11 +105,12 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:text="Tambahkan"
-        android:textColor="@color/black"
+        android:textColor="@color/white"
         app:layout_constraintEnd_toEndOf="@+id/text_title"
         app:layout_constraintTop_toBottomOf="@+id/button_plus"
         app:layout_constraintStart_toStartOf="@+id/text_title"
         android:layout_margin="20dp"
+        android:background="@drawable/bg_print"
         />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

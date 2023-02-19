@@ -11,6 +11,7 @@ import com.github.mikephil.charting.data.BarData
 import com.github.mikephil.charting.data.BarDataSet
 import com.github.mikephil.charting.data.BarEntry
 import com.bmtnuinstitute.pointofsales.R
+import com.bmtnuinstitute.pointofsales.preferences.PrefManager
 import com.bmtnuinstitute.pointofsales.retrofit.response.chart.ChartResponse
 import com.bmtnuinstitute.pointofsales.retrofit.service.ApiService
 import kotlinx.android.synthetic.main.activity_chart.*
@@ -24,6 +25,7 @@ import kotlin.collections.ArrayList
 class ChartActivity : AppCompatActivity() {
 
     private val api by lazy { ApiService.owner }
+    private val pref by lazy { PrefManager(this) }
     private var barEntry = ArrayList<BarEntry>()
     private var dateValue = ArrayList<String>();
 
@@ -46,7 +48,7 @@ class ChartActivity : AppCompatActivity() {
 
     private fun chart(){
         loadingChart(true)
-        api.chart("2022")
+        api.chart("2023", pref.getString("pref_user_username")!!)
             .enqueue(object : Callback<ChartResponse> {
                 override fun onFailure(call: Call<ChartResponse>, t: Throwable) {
                     loadingChart(false)

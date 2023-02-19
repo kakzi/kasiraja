@@ -51,7 +51,8 @@ interface OwnerEndpoint {
     @FormUrlEncoded
     @POST("chart")
     fun chart(
-        @Field("tahun") tahun: String
+        @Field("tahun") tahun: String,
+        @Field("username") username: String
     ): Call<ChartResponse>
 
     @GET("export-excel")

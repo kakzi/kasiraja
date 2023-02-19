@@ -103,7 +103,7 @@ class MenuActivity : AppCompatActivity() {
                 object :
                     TransactionAdapter.OnAdapterListener {
                     override fun onClick(transaction: Transaction) {
-                        Toast.makeText(this@MenuActivity, "Anda memilih" + transaction.nama_pelanggan, Toast.LENGTH_SHORT).show()
+//                        Toast.makeText(this@MenuActivity, "Anda memilih" + transaction.nama_pelanggan, Toast.LENGTH_SHORT).show()
                         val bundle = Bundle()
                         bundle.putSerializable("arg_transaction", transaction)
                         val transactionMenu = TransactionDetailFragmentMenu()

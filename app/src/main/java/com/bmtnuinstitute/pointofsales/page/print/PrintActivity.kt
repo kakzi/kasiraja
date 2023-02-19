@@ -9,6 +9,7 @@ import com.bmtnuinstitute.pointofsales.R
 import com.bmtnuinstitute.pointofsales.preferences.PrefManager
 import com.bmtnuinstitute.pointofsales.retrofit.response.keranjang.Cart
 import com.bmtnuinstitute.pointofsales.retrofit.service.ApiService
+import com.bmtnuinstitute.pointofsales.util.Helper
 import com.mazenrashed.printooth.Printooth
 import com.mazenrashed.printooth.data.printable.Printable
 import com.mazenrashed.printooth.data.printable.TextPrintable
@@ -147,7 +148,7 @@ class PrintActivity : AppCompatActivity() {
         carts.forEach {
             printables.add(
                 TextPrintable.Builder()
-                    .setText("${it.nama_produk} @${it.harga}  x ${it.jumlah} : ${it.total} \n")
+                    .setText("${it.nama_produk} @${Helper.idrFormat(it.harga.toInt())}  x ${it.jumlah} : ${Helper.idrFormat(it.total.toInt())} \n")
                     .build()
             )
         }
@@ -162,7 +163,7 @@ class PrintActivity : AppCompatActivity() {
 
         printables.add(
             TextPrintable.Builder()
-                .setText("Terima kasih sudah belanja\ndi Toko kami!")
+                .setText("Terima kasih sudah belanja\ndi Toko kami!\nBMT NU Ngasem Institute\nBantu Bisnis Naik Kelas!")
                 .setAlignment(DefaultPrinter.ALIGNMENT_CENTER)
                 .setNewLinesAfter(1)
                 .build()

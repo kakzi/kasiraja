@@ -52,8 +52,8 @@ class AddProductActivity : AppCompatActivity() {
             finish()
         }
 
-        val sku = intent.getStringExtra(SKU).toString()!!
-        textSku.setText(sku)
+//        val sku = intent.getStringExtra(SKU).toString()!!
+//        textSku.setText(sku)
 //
     }
 
