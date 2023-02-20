@@ -1,7 +1,7 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    tools:context="com.bmtnuinstitute.pointofsales.page.report.ReportActivity">
+    tools:context="com.bmtnungaseminstitute.institutekas.page.report.ReportActivity">
     <item
         android:id="@+id/action_chart"
         android:orderInCategory="0"
